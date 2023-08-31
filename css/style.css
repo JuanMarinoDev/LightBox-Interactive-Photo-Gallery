@@ -82,9 +82,13 @@ a {
 
 /* --------  Image Gallery  -------- */
 #wrapper {
-  border: 1px solid black;
   width: 80%;
   margin: 30px auto 0 auto;
+  text-align: center;
+}
+
+.thumbnail-pic {
+  border: 1px solid red;
 }
 
 
