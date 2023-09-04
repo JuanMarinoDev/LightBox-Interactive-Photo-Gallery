@@ -112,6 +112,20 @@ a {
   background: url(../img/prev.png) left 50% no-repeat;
 }
 
+.lb-close {
+  position: absolute;
+  top: 36%;
+  right: 2%;
+}
 
 
+.lb-data .lb-caption {
+  font-size: 0.85em;
+  font-weight: 600;
+}
+
+.lb-data .lb-number {
+  font-size: 0.75em;
+  font-weight: 500;
+}
 
