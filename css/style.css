@@ -83,9 +83,8 @@ a {
 /* --------  Image Gallery  -------- */
 #wrapper {
   width: 80%;
-  margin: 30px auto 0 auto;
+  margin: 30px auto 40px auto;
   text-align: center;
-  margin-bottom: 40px;
 }
 
 .img-item {
@@ -194,9 +193,7 @@ a {
 
 
 
-@media all and (min-width: 375px) {
-
-
+@media all and (min-width: 425px) {
   /* ----- Search Bar ----- */
   #search-bar {
     /* width: 80%;
@@ -210,13 +207,12 @@ a {
     line-height: 1;
     color: #808080; */
   }
-
   /* ----- Image Gallery ----- */
   #wrapper {
     /* width: 80%;
-    margin: 30px auto 0 auto;
-    text-align: center;
-    margin-bottom: 40px; */
+    margin: 30px auto 40px auto;
+    text-align: center; */
+    margin-top: 40px;
   }
 
   .img-item {
@@ -224,41 +220,98 @@ a {
     line-height: 0;
     margin-bottom: 20px; */
   }
-
-
-
-
   /* ----- LightBox ----- */
   .lb-container {
     /* margin-top: 200px; */
   }
-
   .lb-nav a.lb-next {
     /* width: 20%;
     background: url(../img/next.png) right 50% no-repeat; */
   }
-
   .lb-nav a.lb-prev {
     /* width: 20%;
     background: url(../img/prev.png) left 50% no-repeat; */
   }
-
   .lb-close {
     /* position: absolute;
     top: 34%;
     right: 2%; */
+    top: 32%;
   }
-
-
   .lb-data .lb-caption {
     /* font-size: 0.85em;
     font-weight: 600; */
   }
-
   .lb-data .lb-number {
     /* font-size: 0.75em;
     font-weight: 500; */
   }
+}
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (min-width: 425px) {
+  /* ----- Search Bar ----- */
+  #search-bar {
+    /* width: 80%;
+    display: block;
+    margin: 30px auto 0 auto;
+    padding: 6px 8px 8px 8px;
+    border: 2px solid #d3d3d3;
+    border-radius: 6px;
+    font-size: 0.95em;
+    font-weight: 400;
+    line-height: 1;
+    color: #808080; */
+  }
+  /* ----- Image Gallery ----- */
+  #wrapper {
+    /* width: 80%;
+    margin: 30px auto 40px auto;
+    text-align: center; */
+    margin-top: 40px;
+  }
+
+  .img-item {
+    /* display: inline-block;
+    line-height: 0;
+    margin-bottom: 20px; */
+  }
+  /* ----- LightBox ----- */
+  .lb-container {
+    /* margin-top: 200px; */
+  }
+  .lb-nav a.lb-next {
+    /* width: 20%;
+    background: url(../img/next.png) right 50% no-repeat; */
+  }
+  .lb-nav a.lb-prev {
+    /* width: 20%;
+    background: url(../img/prev.png) left 50% no-repeat; */
+  }
+  .lb-close {
+    /* position: absolute;
+    top: 34%;
+    right: 2%; */
+    top: 32%;
+  }
+  .lb-data .lb-caption {
+    /* font-size: 0.85em;
+    font-weight: 600; */
+  }
+  .lb-data .lb-number {
+    /* font-size: 0.75em;
+    font-weight: 500; */
+  }
 }
